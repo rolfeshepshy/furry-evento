@@ -58,3 +58,8 @@ h1{
     margin-bottom: 30px;
     background-color: #ffa15c !important;
 }
+
+.navbar-brand{
+    font-family: 'Darumadrop one';
+    font-size: 2em;
+}
