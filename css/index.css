@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Darumadrop+One&display=swap');
+
+body{
+    background-color: rgb(255, 135, 44);
+}
+
+h1{
+    font-family: 'Darumadrop one';
+    color: rgb(244, 244, 244);
+    font-size: 3em;
+    -webkit-text-stroke: 2px black;
+    transform: rotate(2deg);
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.h1-tijuana{
+    background-color: rgb(75, 138, 76);
+    width: fit-content;
+    margin: auto;
+    z-index: 3;
+    position: relative;
+    /* box-shadow: 10px 10px 0px black; */
+}
+
+.h1-tijuana:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* margin: auto; */
+    z-index: 1;
+    box-shadow: -10px -10px 0px #9b2e2e;
+
+}
+
+.h1-furs{
+    transform: rotate(-2deg);
+    background-color: rgb(42, 118, 165);
+    width: fit-content;
+    margin: auto;
+    box-shadow: 10px 10px 0px #9b2e2e;
+    z-index: 2;
+}
+
+
+.default-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tjfurs-nav{
+    margin-bottom: 30px;
+    background-color: #ffa15c !important;
+}
