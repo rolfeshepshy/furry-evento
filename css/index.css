@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Darumadrop+One&display=swap');
 
 body{
-    background-color: rgb(255, 135, 44);
+    /* background-color: rgb(255, 135, 44); */
+    background-color: #272c48;
 }
 
 h1{
@@ -56,10 +57,77 @@ h1{
 
 .tjfurs-nav{
     margin-bottom: 30px;
-    background-color: #ffa15c !important;
+    /* background-color: #ffa15c !important; */
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 
 .navbar-brand{
     font-family: 'Darumadrop one';
-    font-size: 2em;
+    font-size: 3em;
+    color: white;
+    float: left;
+    margin-top: -10px;
+    margin-right: 20%;
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.navbar-brand:hover{
+    color: #ed5a14;
+}
+
+.navbar-nav{
+    color: #ed5a14;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: white;
+}
+
+.nav-link{
+    color: #ed5a14;
+}
+
+.nav-link:hover{
+    color: white !important;
+}
+
+.nav-link:focus{
+    color: white;
+}
+
+.circle-container{
+    width: 500px;
+    height: 500px;
+    /* position:fixed; */
+    right: 10%;
+    bottom: 10px;
+    align-self: flex-end;
+    margin-bottom: 70px;
+}
+
+.circle-1{
+    width: 100%;
+    height: 100%;
+    background-color: #ed5a14;
+    border-radius: 200% 200% 50% 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nutria-aaron{
+    border-radius: 200% 200% 200% 200%;
+    background-image: url("https://www.tijuanafurs.com/img/nutrio.jpg");
+    width: 90%;
+    height: 90%;
+}
+
+.first-hero{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
 }
