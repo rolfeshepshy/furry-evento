@@ -120,6 +120,9 @@ h1{
 .nutria-aaron{
     border-radius: 200% 200% 200% 200%;
     background-image: url("/img/nutrio.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 90%;
     height: 90%;
 }
@@ -141,4 +144,39 @@ h1{
 .nutrio{
     color: #ed5a14;
     -webkit-text-stroke: 0px;
+}
+
+/* NAVBAR TOGGLE ICON */
+
+.navbar-toggler-icon{
+    filter: brightness(100);
+}
+
+.navbar-toggler{
+    border-color: white;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .first-hero{
+        align-items: center;
+        flex-direction: column;
+    }
+    .first-nutria{
+        width: 98%;
+    }
+
+    .circle-container{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .container-fluid{
+        flex-direction: column;
+    }
+
+    .navbar-brand{
+        margin-right: 0px;
+    }
 }
