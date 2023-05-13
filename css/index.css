@@ -178,7 +178,7 @@ h1{
 }
 
 .carousel.slide{
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -217,4 +217,18 @@ h1{
     .navbar-brand{
         margin-right: 0px;
     }
+    
+    .h1-eventos{
+        font-size: 3em;
+    }
+
+    .gallery{
+        height: auto;
+        /* width: 900px; */
+    }
+    
+    .first-hero.second-hero{
+        flex-direction: column-reverse;
+    }
+
 }
